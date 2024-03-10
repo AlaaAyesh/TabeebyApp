@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../WelcomeScreen/welcome_screen.dart';
 
 class SplashScreen extends StatefulWidget {
-  const SplashScreen({Key? key});
+  const SplashScreen({super.key});
 
   @override
   State<SplashScreen> createState() => _SplashScreenState();
@@ -49,7 +49,7 @@ class _SplashScreenState extends State<SplashScreen> {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Image.asset(
-                  'ASSETS/images/logo.png',
+                  'assets/images/logo.png',
                   width: 350.0,
                 ),
               ),

@@ -25,7 +25,7 @@ class WelcomeBackground extends StatelessWidget {
             top: 0,
             left: 0,
             child: Image.asset(
-              'ASSETS/images/main_top.png',
+              'assets/images/main_top.png',
               color: Colors.deepPurple.shade300,
               width: size.width * 0.3,
             ),
@@ -34,7 +34,7 @@ class WelcomeBackground extends StatelessWidget {
             bottom: 0,
             left: 0,
             child: Image.asset(
-              'ASSETS/images/main.bottom.png',
+              'assets/images/main.bottom.png',
               color: Colors.deepPurple.shade300,
               width: size.width * 0.2,
             ),
